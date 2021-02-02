@@ -1,0 +1,20 @@
+[
+    { 
+        "id" : 1,
+        "pic" : "https://previews.123rf.com/images/novelo/novelo1505/novelo150500017/39663049-hot-deals-over-white-background.jpg",
+        "title" : "Hot Deals",
+        "description" : "This week"
+    },
+    { 
+        "id" : 2,
+        "pic" : "https://media.gettyimages.com/photos/smiling-man-holding-groceries-bag-against-white-background-picture-id1153831952?s=2048x2048",
+        "title" : "Monthly Deals",
+        "description" : "Discover your favourites"
+    },
+    { 
+        "id" : 3,
+        "pic" : "https://image.shutterstock.com/z/stock-photo-fresh-healthy-natural-bread-food-group-in-studio-on-table-70365484.jpg",
+        "title" : "Weekly Deals",
+        "description" : "Get all essentials"
+    }
+]

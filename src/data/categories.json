@@ -1,0 +1,20 @@
+[
+    { 
+        "id" : 1,
+        "pic" : "https://image.freepik.com/free-photo/collection-vegetables-isolated-white-background_44074-1572.jpg",
+        "title" : "Vegetables",
+        "description" : "Fresh vegetables"
+    },
+    { 
+        "id" : 2,
+        "pic" : "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4114273.jpg",
+        "title" : "Fruits",
+        "description" : "Fresh fruits"
+    },
+    { 
+        "id" : 3,
+        "pic" : "https://c7.alamy.com/comp/KA5594/3d-collection-of-household-cleaning-products-isolated-on-white-background-KA5594.jpg",
+        "title" : "Households",
+        "description" : "Grab household items"
+    }
+]
