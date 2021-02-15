@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card } from 'antd';
-import { EditOutlined } from '@ant-design/icons';
+import { Card, Button } from 'antd';
 const { Meta } = Card;
 // eslint-disable-next-line react/prop-types
 const ProductCard = ({
@@ -17,36 +16,39 @@ const ProductCard = ({
         <Card
             style={{
                 width: 350,
-                height: 450,
-                backgroundColor: 'skyblue',
+                backgroundColor: 'white',
+                margin: 20,
+                borderWidth: 1,
+                borderStyle: 'solid',
+                borderColor: 'blue',
             }}
             cover={
                 <img
                     alt="example"
-                    style={{ width: 350, height: 300 }}
+                    style={{ width: 350, height: 300, padding: 2 }}
                     src={`${pic}`}
                 />
             }
+            actions={[
+                <Button
+                    type="text"
+                    style={{
+                        fontSize: 20,
+                        backgroundColor: 'white',
+                        borderTopWidth: 1,
+                        borderTopColor: 'blue',
+                        borderTopStyle: 'solid',
+                        // height: '100%',
+                        width: '100%',
+                    }}
+                    key="addToCart"
+                >
+                    Add to Cart
+                </Button>,
+            ]}
         >
-            actions=
-            {[<EditOutlined key="setting" />]}
             <Meta title={title} description={description} />
             <div>{price}</div>
-            <div
-                style={{
-                    fontSize: 20,
-                    border: 1,
-                    borderStyle: 'solid',
-                    borderColor: 'black',
-                    backgroundColor: 'red',
-                    height: 50,
-                    width: 350,
-                    textAlign: 'center',
-                    padding: -24,
-                }}
-            >
-                Add to Cart
-            </div>
         </Card>
     );
 };
